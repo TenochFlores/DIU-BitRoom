@@ -1,0 +1,79 @@
+.bitroom_style {
+    font-weight: bold; /* Negrita */
+    font-style: italic; /* Itálico */
+    color: black; /* Color de texto */
+    font-size: 28px;
+}
+
+.bar_style {
+    color: black; /* Color de texto */
+    font-size: 24px;
+}
+
+.settings-icon {
+    font-size: 36px; /* Ajusta este valor según tus necesidades. */
+}
+
+.col {
+    display: flex;
+    align-items: center; /* Alinea los elementos hijos verticalmente en el centro */
+    justify-content: center; /* Opcional, para centrar horizontalmente si es necesario */
+}
+
+.transparent-button {
+    background-color: transparent;  /* Hace el fondo transparente */
+    color: #595959;                    /* Establece el color inicial de texto */
+    border: none;                   /* Elimina el borde */
+    padding: 0;                     /* Elimina el relleno */
+    cursor: pointer;
+    transition: color 0.3s;
+    margin: auto 0; /* Centra verticalmente dentro del contenedor si está usando flexbox */
+    min-width: 120px; 
+}
+
+.transparent-button:hover {
+    color: black;                   /* Cambia el color de texto al pasar el mouse */
+}
+
+.navbar {
+    background-color: white !important;
+    padding: 8px;
+    font-size: 22px;
+    border-bottom: 2px solid #F3F3F3; /* Línea divisoria en la parte inferior */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+}
+
+.navbar-brand h5 {
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+.navbar-content {
+    margin: auto;
+    max-width: 1280px;
+}
+
+.nav-logo {
+    height: 40px;
+    width:  40px;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.nav-dropdown-item {
+    color: black !important;
+}
+
+.nav-dropdown-item:hover {
+    background-color: black;
+    color: black !important;
+}
+
+.nav-link { 
+    cursor: pointer;
+}
