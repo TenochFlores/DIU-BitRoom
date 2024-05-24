@@ -20,8 +20,8 @@ export class NavbarComponent {
     this.router.navigate(['/progreso']); // Navigate to desired view
   }
 
-  goToSettings() {
-    this.router.navigate(['/progreso']); // Navigate to desired view
+  goToComunidad() {
+    this.router.navigate(['/comunidad']); // Navigate to desired view
   }
 
   ngOnInit() {
