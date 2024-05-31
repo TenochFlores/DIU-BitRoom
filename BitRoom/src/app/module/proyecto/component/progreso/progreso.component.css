@@ -1,0 +1,44 @@
+.row {
+    width: 100%; /* Ajusta el ancho al 100% de su contenedor */
+    justify-content: center; /* Centra los elementos de la fila horizontalmente */
+    margin: 0; /* Elimina márgenes externos */
+}
+
+.col {
+    padding: 0; /* Elimina padding interno */
+    display: flex; /* Habilita flexbox para alinear contenido interno */
+    flex-direction: column; /* Organiza contenido en columna */
+    align-items: center; /* Centra contenido de las columnas */
+}
+
+.size-images {
+    width: 20vw; /* Ajusta la imagen para que llene la columna */
+    display: block; /* Elimina cualquier espacio extra abajo de la imagen */
+}
+
+
+.custom-button {
+    border-radius: 9px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    width:auto; /* Ancho para ajustar al contenedor padre */
+    height: 3.4vw;
+    background-color: #333333;
+    color: white;
+}
+
+.custom-button-white {
+    border-radius: 9px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    width:auto; /* Ancho para ajustar al contenedor padre */
+    height: 3.4vw;
+    background-color: #EBEBEB;
+    color: black;
+}
+
+.custom-container {
+    max-width:fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+

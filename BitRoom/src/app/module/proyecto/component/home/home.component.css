@@ -1,0 +1,44 @@
+.size-imagen-reloj {
+  width: 13vw; /* Ancho de la imagen */
+  align-items: center; /* Alinea verticalmente el contenido de todas las columnas */
+}
+
+.size-imagen-recursos {
+  width: 42vw; /* Ancho de la imagen */
+  align-items: center; /* Alinea verticalmente el contenido de todas las columnas */
+}
+
+.size-imagen-grupos {
+  width: 19vw; /* Ancho de la imagen */
+  align-items: center; /* Alinea verticalmente el contenido de todas las columnas */
+}
+
+.size-imagen-progreso {
+  width: 19vw; /* Ancho de la imagen */
+}
+
+.row {
+    max-width: fit-content;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.col a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Cambia el color del texto */
+    display: block; /* Hace que el enlace llene toda la celda */
+}
+
+.col a:hover {
+    color: grey; /* Cambia el color del texto al pasar el mouse */
+}

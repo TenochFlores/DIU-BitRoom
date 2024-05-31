@@ -77,3 +77,15 @@
 .nav-link { 
     cursor: pointer;
 }
+
+.social-icons a {
+    margin-right: 20px; /* Aumenta el espacio entre íconos */
+    color: #808080; /* Cambia el color a gris */
+    font-size: 24px; /* Tamaño de los íconos */
+    transition: color 0.3s; /* Suaviza la transición de color */
+}
+
+.social-icons a:hover {
+    color: #585858; /* Color más oscuro al pasar el mouse */
+}
+

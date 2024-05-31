@@ -1,0 +1,78 @@
+input::placeholder {
+    color: black;
+}
+
+.color-1{
+    background-color: #FFB3B3;
+}
+
+.color-2{
+    background-color: #FFCEA1;
+}
+
+.color-3{
+    background-color: #FFE985;
+}
+
+.color-4{
+    background-color: #D1FF94;
+}
+
+.color-5{
+    background-color: #ADFFEF;
+}
+
+.color-6{
+    background-color: #7ACAFF;
+}
+
+.color-7{
+    background-color: #7AA0FF;
+}
+
+.color-8{
+    background-color: #957AFF;
+}
+
+.color-9{
+    background-color: #C778FF;
+}
+
+.color-10{
+    background-color: #FCABFF;
+}
+
+
+.color-grey {
+    color: #737373;  
+}
+
+.contenedor-temas {
+    max-width: 100%;
+}
+
+.custom-temas {
+    border-radius: 9px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    width: 65%; /* Ancho para ajustar al contenedor padre */
+    height: 3.5vw;
+}
+
+.custom-input {
+    border-radius: 9px; /* Bordes redondeados */
+    padding: 8px 16px; /* Padding interior */
+    font-size: 16px; /* Tamaño de la fuente */
+    width: 20%; /* Ancho para ajustar al contenedor padre */
+    height: 3.5vw;
+    background-color: #EBEBEB;
+}
+
+.custom-button {
+    border-radius: 9px; /* Bordes redondeados */
+    padding: 8px 16px; /* Padding interior */
+    font-size: 16px; /* Tamaño de la fuente */
+    width: 20%; /* Ancho para ajustar al contenedor padre */
+    height: 3.4vw;
+    background-color: #333333;
+    color: white;
+}

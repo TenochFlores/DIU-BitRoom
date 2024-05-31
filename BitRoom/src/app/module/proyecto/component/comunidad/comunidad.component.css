@@ -1,0 +1,29 @@
+.custom-button {
+    border-radius: 9px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    width:auto; /* Ancho para ajustar al contenedor padre */
+    height: 3.4vw;
+    background-color: #333333;
+    color: white;
+}
+
+.custom-input {
+    border-radius: 9px; /* Bordes redondeados */
+    padding: 8px 16px; /* Padding interior */
+    font-size: 16px; /* Tamaño de la fuente */
+    width:40vw; /* Ancho para ajustar al contenedor padre */
+    height: 3.5vw;
+    background-color: #EFEFEF;
+}
+
+.pad-categoria {
+    margin-left: 19%;
+}
+
+.pad-nombres {
+    margin-left: 24%;
+}
+
+.pad-links {
+    margin-left: 30%;
+}
